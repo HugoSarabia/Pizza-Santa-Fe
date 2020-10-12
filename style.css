@@ -1,0 +1,528 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Molengo', sans-serif;
+ }
+ #body {
+ 	background-color: #13141E;
+ }
+ #body2{
+ 	background-color: #BDC2CE;
+ }
+body{
+margin: 0;
+ }
+ a:link{
+ 	color: white;
+ }
+ a:visited {
+ 	color: white;
+ }
+ a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+#ul {
+ 	background: linear-gradient(to bottom, rgba(68 66 66),  rgba(0, 0, 0, 0));
+ 	list-style-type: none;
+ 	margin: 0;
+ 	margin-top: -1em;
+ }
+ #li {
+ 		display: inline;
+ 	color: white;
+ 	margin-right: 4em;
+ 	vertical-align: middle;
+ 	font-size: 18px;
+ }
+li {
+ 	display: inline;
+ 	color: white;
+ 	margin-right: 2em;
+ 	vertical-align: middle;
+ 	font-size: 16px;
+ }
+ #h2 {
+ 	color: #498E86;
+ 	font-size: 32px;
+ 	text-align: center;
+ }
+ footer {
+ 	background-color: #EDEAE8;
+ 	width: 100%;
+ 	color: #3D3D3D;
+ 	font-size: 13px;
+ 	font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 2em;
+    text-align: center;
+ }
+ #footer {
+ 	position: absolute;
+ 	top: 130em;
+ }
+  #footer2 {
+ 	position: absolute;
+ 	top: 56.5em;
+ }
+.banner {
+position: relative;
+width: 100%;
+height: 100vh;
+z-index: -1;
+ }
+.logo{
+ 	position: absolute;
+ 	width: 100%;
+ 	background: 50%;	
+	
+ }
+  .imgss {
+ 	margin-top: 1em;
+ 	width: 8em;
+ 	height: 8em;
+ 	margin-right: 2em;
+ }
+ .slider {
+background: 0;
+right: 0;
+height:  767px;
+position: absolute;
+min-width: 100%;
+min-height: 100%;
+ }
+ .desc {
+color: white;
+position: absolute;
+right: 18%;
+top: 12em;
+background: 50%;
+text-align: center;
+width: 60%;
+padding: 30px 20px 30px;
+text-shadow: -2px 2px 2px #000000;
+ }
+ .desc h1{
+ 	text-shadow: none;
+ 	color: #3C3C3C;
+ 	font-size: 50px;
+ }
+  .desc h2{
+ 	text-shadow: none;
+ 	color: #FFFFFF;
+ 	font-size: 50px;
+ }
+ .pizzaped {
+	color: #3D3D3D;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-weight: bold;
+	font-size: 32px;
+	text-align: center;
+}
+.fotos {
+	text-align: center; 
+	padding-left: 7em;
+}
+.space {
+	padding-right: 5px;
+	/*margin-left: 35px;*/
+}
+.divs {
+	position: absolute;
+	top: 67.5em;
+	left: 13em;
+	background-color: #BB3333;
+	max-height: 500px;
+	border-radius: 5px;
+	border-width: 1px;
+}
+.divs2 {
+	position: absolute;
+	top: 67.5em;
+	left: 40.9em;
+	background-color: #BB3333;
+	max-height: 500px;
+	border-radius: 5px;
+	border-width: 1px;
+}
+.divs3 {
+	position: absolute;
+	top: 67.5em;
+	left: 68.7em;
+	background-color: #BB3333;
+	max-height: 500px;
+	border-radius: 5px;
+	border-width: 1px;
+}
+
+.imgs {
+	border-radius: 5px;
+	width: 20em;
+	height: 15em;
+}
+.bg {
+	max-width: 350px;
+	height: 500px;
+	float: left;
+	margin-left: 5em;
+	margin-right: 1em;
+	border-radius: 5px;
+	border-style: solid;
+	background-color: #BB3333;
+
+}
+.product {
+	padding-top: 12em;
+}
+.product h6 {
+	font-size: 16px;
+}
+.btn {
+	color: #FCFCFC;
+	background-color: #3C3C3C;
+	font-size: 16px;
+	margin-top: 5em;
+	width: 160px;
+	height: 48px;
+	border-style: none;
+	border-radius: 5px;
+}
+.btn2 {
+	color: #FCFCFC;
+	background-color: #BB3333;
+	font-size: 16px;
+	margin-top: 5em;
+	width: 160px;
+	height: 48px;
+	border-style: none;
+	border-radius: 5px;
+}
+.btn:hover {
+	background-color: cyan;
+}
+.btn:active {
+	background-color: #313e5a;
+}
+.btn2:hover {
+	background-color: cyan;
+}
+.btn2:active {
+	background-color: #313e5a;
+}
+.video-contenedor {
+position: relative;
+left: 0;
+width: 100%;
+height: 53.4em;
+z-index: -1;
+ }
+.video {
+background: 0;
+left: 0;
+width: 100%;
+/*height:  537px;
+width: 100%;*/
+position: absolute;
+}
+.suc {
+	background-color: #13141E;
+	padding-top: 2em;
+	height: 616px;
+	width: 100%;
+}
+.local {
+	text-align: center; 
+	padding-left: 7em;
+}
+.spacio {
+	padding-right: 5px;
+	/*margin-left: 35px;*/
+}
+.divz {
+	position: absolute;
+	top: 169em;
+	left: 11em;
+	background-color: #BB3333;
+	/*max-height: 500px;*/
+	height: 16em;
+	width: 24em;
+	border-radius: 5px;
+	border-width: 1px;
+}
+.divz2 {
+	position: absolute;
+	top: 169em;
+	left: 41em;
+	background-color: #BB3333;
+	/*max-height: 500px;*/
+	height: 16em;
+	width: 24em;
+	border-radius: 5px;
+	border-width: 1px;
+}
+.divz3 {
+	position: absolute;
+	top: 169em;
+	left: 71em;
+	background-color: #BB3333;
+	/*max-height: 500px;*/
+	height: 16em;
+	width: 24em;
+	border-radius: 5px;
+	border-width: 1px;
+}
+.img{
+	border-radius: 5px;
+	width: 24em;
+	height: 16em;
+}
+.bug {
+	width: 24em;
+	height: 342px;
+	float: left;
+	margin-top: 1em;
+	margin-left: 4em;
+	margin-right: 2em;
+	border-radius: 5px;
+	background-color: #BB3333;
+}
+.prod h6 {
+	color: #D5FF00;
+	font-size: 16px;
+	margin-block-start: 1em;
+}
+.foot {
+	width: 40%;
+	float: left;
+	margin-left: 7em;
+}
+.foot2 {
+	width: 20%;
+	float: left;
+	margin-left: 5em;
+}
+
+.cup {
+	 position: absolute;
+    width: 35%;
+    right: 5em;
+    top: 12em;
+}
+.TA {
+	width: 65%;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+	border-radius: 5px 0px 0px 5px;
+}
+.bttn {
+	color: #FCFCFC;
+	background-color: #3C3C3C;
+	font-size: 16px;
+	float: left;
+	width: 160px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-style: none;
+	border-radius: 0px 5px 5px 0px;
+}
+.bttn:hover {
+	background-color: cyan;
+}
+.bttn:active {
+	background-color: #313e5a;
+}
+.panel {
+	width: 100%;
+	height: 40vh;
+    position: absolute;
+    top: 20em;
+    margin-bottom: 2em;
+}
+.stock {
+	background-color: #474B41;
+	float: left;
+	margin-left: 1em;
+	margin-right: 1em;
+	border-radius: 5px;
+	width: 428px;
+	height: 605px;
+}
+.imagenes {
+	width: 428px;
+	height: 300px;
+	border-radius: 5px;
+}
+.descrip {
+	margin-top: 2em;
+	text-align: center;
+	display: block;
+}
+.precio {
+	margin-top: 2em;
+	color: #AAAE3E;
+	font-size: 18px;
+	text-align: center;
+	display: block;
+}
+.btncomprar{
+	background-color: #648D91;
+	color: white;
+	border-radius: 5px;
+	border-style: none;
+	margin-top: 2em;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 2.5em;
+	padding-left: 2.5em;
+	text-align: center;
+	margin-left: 12em;
+	display: block;
+}
+.btncomprar:hover {
+	background-color: cyan;
+}
+.btncomprar:active {
+	background-color: #313e5a;
+}
+.panel2 {
+	width: 100%;
+	height: 40vh;
+    position: absolute;
+    top: 60em;
+    margin-bottom: 2em;
+}
+
+.cart{
+position: relative;
+width: 100%;
+height: 100%;
+top: 9em;
+left: 0em;
+}
+.ubicacion {
+	position: absolute;
+	left: 2em;
+	font-size: 20px;
+	display: block;
+	width: 50%;
+	float: left;
+}
+.map{
+	width: 30em;
+	height: 25em
+}
+.formu{
+	background-color: white;
+	position: absolute;
+	margin-top: 4em;
+	right: 3em;
+	border-style: solid;
+	display: block;
+	width: 50%;
+	height: 31.5em;
+	float: left;
+}
+.sec1 {
+	width: 50%;
+	height: 100%;
+	float: left;
+
+}
+#p {
+	margin-left: 2em;
+	margin-top: -2em;
+	
+}
+#p2 {
+	margin-left: 2em;
+	margin-top: -1.5em;
+	
+}
+.ub{
+	margin-left: 2em;
+	width: 100%;
+}
+.ub2, .ub3{
+	margin-left: 2em;
+	width: 100%;
+}
+.ub2, .ub3 {
+	float: left;
+}
+.sec2 {
+	width: 50%;
+	float: left;
+}
+.h22 {
+	color: #3D3D3D;
+	font-size: 30px;
+	margin-left: 2em;
+}
+.dib {
+    position: absolute;
+    top: 18em;
+    width: 100%;
+    left: 2em;
+}
+.nom {
+	border-style: solid;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 15%;
+	margin-right: 1em;
+	float: left;
+}
+.corr {
+	border-style: solid;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+	width: 15%;
+}
+.mensaje {
+	text-align: center;
+	border-style: solid;
+	padding-right: 2em;
+	margin-top: 2.5em;
+	padding-left: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	width: 32%;
+	margin-right: 1em;
+	
+}
+.boton {
+	background-color: #3C3C3C;
+	color: white;
+	border-style: none;
+	font-size: 16px;
+	padding-left: 6em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-right: 6.5em;
+	margin-top: 0.5em;
+}
+
+.service {
+	width: 100%;
+	height:100%;
+}
+.srv {
+	border-radius: 5px;
+	margin-top: 1.5em;
+	width: 23em;
+	height: 28em;
+}
