@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Pizzería Santa Fe</title>
 </head>
@@ -9,60 +11,44 @@
 	<header>
 		<div class="banner">
 		<img class="slider" src="img\pizzarellena2.jpg">
-		<div class="logo">
+		<div class="menu">
 			<ul id="ul">
-				<li id="li" style="margin-left: 3em;"> <img class="imgss" src="img\logo.png"></li>
-				<li id="li" style="color: #CF3434; margin-left: 3em;">Pizza Santa Fe</li>
-				<li id="li" style="margin-left: 3em;"><a href="index.html" target="_blank">Inicio</a></li>
-				<li id="li" style="margin-left: 3em;"><a href="productos.html" target="_blank">Productos</a></li>
-				<li id="li" style="margin-left: 3em;">Acerca de nosotros</li>
-				<li id="li" style="margin-left: 3em;"><a href="contacto.html" target="_blank">Contacto</a></li>
+				<li id="li"><a href="index.html" norrefer><img class="imgss" src="img\logo.png"></a></li>
+				<li id="li"><a href="index.html" >Inicio</a></li>
+				<li id="li"><a href="productos.html" >Productos</a></li>
+				<li id="li">Acerca de nosotros</li>
+				<li id="li"><a href="contacto.html">Contacto</a></li>
 			</ul>
 		</div>
 		<div class="desc">
 			<h1>¡NUEVA PIZZA ORILLA RELLENA!</h1>
-			<p>Prueba nuestro nueva invención, la nueva pizza orilla rellena de queso philadelphia y jamón.<br>Disponible en todas nuestras sucursales.</p>
+			<h5>Prueba nuestro nueva invención, la nueva pizza orilla rellena de queso philadelphia y jamón.<br>Disponible en todas nuestras sucursales.</h5>
 		</div>
 	</div>
 	</header>
-
 	<main>
-		<div style="margin-bottom: 5em; height: 650px">
+		<div class="recomendations-container">
 			<p class="pizzaped">PIZZAS MÁS PEDIDAS</p>
-			<hr style=" width: 55%; color:#CFCFCF;"><br><br>
-			<div>
-				<ul class="fotos">
-					<li class="space">
-						<div class="bg">
-							<div class="divs"><img class="imgs" src="img\pizzapep.jpg"></div>
-							<div class="product">
-								<h6>Pizza de pepperoni</h6>
-								<p>La clásica de clásicas, una pizza que nunca puede faltar.</p>
-								<button class="btn">Comprar</button>
-							</div>
-						</div>
-					</li>
-					<li class="space">
-						<div class="bg">
-							<div class="divs2"><img class="imgs" src="img\pizzahawaiana.jpg"></div>
-							<div class="product">
-								<h6>Pizza hawaiana</h6>
-								<p>La clásica de clásicas, una pizza que nunca puede faltar.</p>
-								<button class="btn">Comprar</button>
-							</div>
-						</div>
-					</li>
-					<li class="space">
-						<div class="bg">
-							<div class="divs3"><img class="imgs" src="img\pizzamex.jpg"></div>
-							<div class="product">
-								<h6>Pizza mexicana</h6>
-								<p>La clásica de clásicas, una pizza que nunca puede faltar.</p>
-								<button class="btn">Comprar</button>
-							</div>
-						</div>
-					</li>
-				</ul>
+			<hr>
+			<div class="products">
+				<div class="product">
+					<img title="Pizza de pepperoni" alt="Pizza de pepperoni" class="product-img" src="img\pizzapep.jpg">
+					<h4>Pizza de pepperoni</h4>
+					<p class="default-text">La clásica de clásicas, una pizza que nunca puede faltar.</p>
+					<button class="btn-buy">Comprar</button>
+				</div>
+				<div class="product">
+					<img title="Pizza hawaiana" alt="Pizza hawaiana" class="product-img" src="img\pizzahawaiana.jpg">
+					<h4>Pizza hawaiana</h4>
+					<p class="default-text">La clásica de clásicas, una pizza que nunca puede faltar.</p>
+					<button class="btn-buy">Comprar</button>
+				</div>
+				<div class="product">
+					<img title="Pizza mexicana" alt="Pizza mexicana" class="product-img" src="img\pizzamex.jpg">
+					<h4>Pizza mexicana</h4>
+					<p class="default-text">La clásica de clásicas, una pizza que nunca puede faltar.</p>
+					<button class="btn-buy">Comprar</button>
+				</div>
 			</div>
 		</div>
 		<div class="video-contenedor">
